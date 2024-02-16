@@ -1,6 +1,6 @@
-from utils import greet
-from game import gameLoop
+from utils import appInfo
+from game import executeGameLoop
 
 if __name__=="__main__":
-    greet()
-    gameLoop()
+    appInfo()
+    executeGameLoop()
