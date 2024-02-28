@@ -1,6 +1,6 @@
-from utils import appInfo
-from game import executeGameLoop
+from utils import AppInfo
+from game import ExecuteGameLoop
 
 if __name__=="__main__":
-    appInfo()
-    executeGameLoop()
+    AppInfo()
+    ExecuteGameLoop()
